@@ -1,19 +1,20 @@
-import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Quiz {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Welcome to the quiz!");
+        System.out.println("Welcome to CLI Quiz!");
         System.out.println("How many questions do you want?");
         int numQuestions = input.nextInt();
+        input.nextLine();
 
         QuestionBank questionBank = new QuestionBank();
 
         numQuestions = Math.min(numQuestions, questionBank.getNumQuestions());
 
-        ArrayList<Question> questions = (ArrayList<Question>)(questionBank.getQuestions().subList(0, numQuestions));
+        List<Question> questions = questionBank.getQuestions().subList(0, numQuestions);
 
         int score = 0;
 
