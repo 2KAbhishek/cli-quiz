@@ -43,6 +43,6 @@ public class Quiz {
         }
 
         input.close();
-        System.out.println("You scored " + score + " out of " + questions.size());
+        System.out.println("You scored " + score + " out of " + questions.size() * 10 + ".");
     }
 }
