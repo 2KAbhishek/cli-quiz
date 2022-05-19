@@ -26,7 +26,7 @@
 <h3>Short sweet headline with 🎇🎉</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/cli-quiz/main/images/screenshot.png" alt="cli-quiz Demo" style="width:100%">
+  <img src= "images/screenshot.png" alt="cli-quiz Demo" style="width:100%">
   <br/>
   <figcaption>cli-quiz screenshot</figcaption>
 </figure>
