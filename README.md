@@ -1,6 +1,6 @@
 <div align = "center">
 
-<h1><a href="https://2kabhishek.github.io/cli-quiz">cli-quiz</a></h1>
+<h1><a href="https://2kabhishek.github.io/cli-quiz">CLI Quiz</a></h1>
 
 <a href="https://github.com/2KAbhishek/cli-quiz/blob/main/LICENSE">
 <img alt="License" src="https://img.shields.io/github/license/2kabhishek/cli-quiz?style=plastic&color=white&label=License"> </a>
@@ -23,10 +23,10 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>Create quizzes on the CLI ❔📑</h3>
 
 <figure>
-  <img src= "images/screenshot.png" alt="cli-quiz Demo" style="width:100%">
+  <img src= "images/screenshot.jpg" alt="cli-quiz Demo" style="width:100%">
   <br/>
   <figcaption>cli-quiz screenshot</figcaption>
 </figure>
@@ -35,17 +35,17 @@
 
 ## What is this
 
-cli-quiz is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+CLI Quiz is a tiny framework that allows you to easily create command line quiz apps.
 
 ## Inspiration
 
-cli-quiz was inspired by `<reason/idea>`.
+Was trying out some online quizzes, thought I'd make one myself.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `java`
 
 ## Getting cli-quiz
 
@@ -53,52 +53,35 @@ To install cli-quiz, follow these steps:
 
 ```bash
 git clone https://github.com/2kabhishek/cli-quiz
-cd cli-quiz
-<install_command>
+cd cli-quiz/src
 ```
 
 ## Using cli-quiz
 
+The quiz supports different types of questions
+
+- MCQs
+- True and False
+- Numericals
+
+You can create the questions in `QuestionBank.java`.
+`Quiz.java` has the main method, compile it and run to start the quiz.
+
 ```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+# After making changes
+java Quiz.java
+# Starting the quiz
+java Quiz
 ```
+Can be used as a case study for OOP principles.
 
 ## How it was built
 
-cli-quiz was built using `<tech/library>`
-
-## Challenges faced
-
-While building cli-quiz the main challenges were `<issue/difficulty>`
+cli-quiz was built using `java` and `neovim`
 
 ## What I learned
 
-While building cli-quiz I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Figuring out all the different question types and there implementation was fun.
 
 Hit the ⭐ button if you found this useful.
 
